@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style2.css"> 
+<title>Visa Assist</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body style="background-color:white;">
+
+<div>
+      <table style="width:100% ;background-color:lightblue;">
+           <tr>
+              <td style="width:10%";"><img src="VA Logo BL.png" alt="VA Logo" width="300" height="90"></td>
+              <td><h1 style="color:Green;font-family:verdana;font-size:200%;text-align:center;">Unlock Your Global Travel Dreams with Visa Assist</h1></td>
+          </tr>
+</div>
+<div>
+      <table>
+            <tr>
+              <td colspan="2";>
+                   <h2 style="color:purple;text-align:center;font-family:calibri;font-size:150%"> Visa Assist is your ultimate travel companion, providing up-to-date visa requirements, application forms, and checklists for any country in the world. Get started on your global adventure today! </h2>
+              </td>
+           </tr>
+     </table>
+
+<div align="center" style="background-color:blue;">
+    <table><tr style="height:50px;">
+<td valign="center">
+               <h1 style="color:white;font-family:verdana;font-size:150%;"> Lets get started with your requirement !</h1>
+              </td></tr></table></div>
+
+<br><br>
+<fieldset align="center" ><legend align="left">Requirements</legend>
+  <label for="Country">Select Country&nbsp&nbsp</label>
+  <select name="Country" id="country">
+    <option value="Select">Select</option>
+    <option value="Austria">Austria</option>
+    <option value="Belgium">Belgium</option>
+    <option value="Croatia">Croatia</option>
+    <option value="Czech Republic">Czech Republic</option>
+    <option value="Denmark">Denmark</option>
+    <option value="Estonia">Estonia</option>
+    <option value="Finland">Finland</option>
+    <option value="France">France</option>
+    <option value="Greece">Greece</option>
+    <option value="Hungary">Hungary</option>
+    <option value="Iceland">Iceland</option>
+    <option value="Italyc">Italy</option>
+    <option value="Latvia">Latvia</option>
+    <option value="Liechtenstein">Liechtenstein</option>
+    <option value="Lithuania">Lithuania</option>
+    <option value="Luxembourg">Luxembourg</option>
+    <option value="Malta">Malta</option>
+    <option value="Netherlands">Netherlands</option>
+    <option value="Norway">Norway</option>
+    <option value="Poland">Poland</option>
+    <option value="Portugal">Portugal</option>
+    <option value="Slovakia">Slovakia</option>
+    <option value="Slovenia">Slovenia</option>
+    <option value="Spain">Spain</option>
+    <option value="Sweden">Sweden </option>
+    <option value="Swiss">Switzerland </option>
+    <option value="USA">USA </option>
+    <option value="UK">UK</option>
+    <option value="UAE">UAE</option>
+    <option value="Uzbekistan">Uzbekistan</option>
+    <option value="Egypt">Egypt</option>
+    <option value="Morocco">Morocco</option>
+    <option value="Singapore">Singapore</option>
+    <option value="Malaysia">Malaysia </option>
+    <option value="Philippines">Philippines </option>
+    <option value="Thailand">Thailand</option>
+    <option value="Vietnam">Vietnam</option>
+    <option value="Cambodia">Cambodia</option>
+    <option value="Japan">Japan</option>
+    <option value="China">China</option>
+    <option value="Hongkong">Hongkong </option>
+    <option value="South Korea">South Korea </option>
+    <option value="South Africa">South Africa </option>
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="Srilanka">Srilanka</option>
+    <option value="Azerbaijan">Azerbaijan</option>
+    <option value="Tashkent">Tashkent</option>
+    <option value="Kazakhstan">Kazakhstan</option>
+    <option value="Indonesia">Indonesia </option>
+    <option value="Georgia">Georgia</option>
+    <option value="Jordan">Jordan</option>
+    <option value="Maldives">Maldives</option>
+    <option value="Mayanmar">Mayanmar</option>
+    <option value="New Zealand">New Zealand</option>
+    <option value="Australia">Australia</option>
+    <option value="Canada">Canada </option>
+  </select>
+
+ <label for="Category">&nbsp&nbspCategory&nbsp&nbsp</label>
+ <select name="Category" id="category">
+    <option value="Select">Select</option>
+    <option value="Tourist">Tourist</option>
+    <option value="Business">Business</option>
+    <option value="Visit">Visit</option>
+    <option value="Study">Study</option>
+</select>
+
+ <label for="Type">&nbsp&nbspType&nbsp&nbsp</label>
+ <select name="Type" id="type">
+    <option value="Select">Select</option>
+    <option value="Evisa">E-Visa</option>
+    <option value="Sticker">Sticker Visa</option>
+</select>
+
+  <br>
+  <button onclick="visaResponse();showhide()">Submit</button>
+<div id="div1" class ="center" style=display:none;">
+<a href="" id="return" style="text-align:center;color: #fff;text-decoration:none;vertical-align:middle;display:inline-block">Download Your Checklist </a>
+</div>
+
+</fieldset>
+
+
+<div id="logout" align="right">  
+   <br><br><button id="logout-btn" onclick="logout()">Logout</button>  
+</div>
+ <script src="script.js"></script>
+</body>
+</html>

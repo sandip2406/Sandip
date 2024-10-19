@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+   <title>Login Page</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'><link rel="stylesheet" href="./style3.css">
+
+</head>
+<body>
+<img src="VA Logo BL.png" alt="VA Logo" width="300" height="90">
+<div class="container">
+	<div class="screen">
+		<div class="screen__content">
+
+			<form class="login" id="login-form">
+				<div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+					<input type="text" id="user-id" name="user-id" class="login__input" placeholder="User name" required>
+				</div>
+				<div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
+					<input type="password" id="password" class="login__input" placeholder="Password" name="password" required>
+                                        <br><input type="checkbox" id="remember-me" name="remember-me">  
+                                        <label for="remember-me" style="font-size:12px;">Remember Me</label>
+				</div>
+				<button class="button login__submit" id="login-btn">
+					<span class="button__text">Log In Now</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>
+                                <p id="error-message" style="color:#ef2020;font-size:11px;margin-top:10px;"></p>				
+			</form>
+			<div class="social-login">
+				<h3>Find Us</h3>
+			<div class="social-icons">
+				<a href="https://www.instagram.com/vacationsexotica?igsh=YW55Z2dzZGExeG52" class="social-login__icon fab fa-instagram"></a>
+				<a href="https://www.facebook.com/share/JTmH9sPYVmtEWFoc/" class="social-login__icon fab fa-facebook"></a>
+				<a href="https://x.com/Vacationsve" class="social-login__icon fab fa-twitter"></a>
+			</div>
+			</div>
+		</div>
+		<div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>		
+	</div>
+</div>
+  <script src="script.js"></script>  
+</body>
+</html>

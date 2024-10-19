@@ -1,0 +1,58 @@
+<style>
+table, th, td {
+  border:0px solid black;
+}
+
+ select {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: cursive, sans-serif;
+        outline: 0;
+        background: green;
+        color: #fff;
+        border: 1px solid White;
+        padding: 4px;
+        border-radius: 9px;
+      }
+ button {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: cursive, sans-serif;
+        outline: 10;
+        background: purple;
+        color: #fff;
+        border: 1px solid White;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100px
+      }
+label {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: cursive, Arial;
+        outline: 10;
+        background: White;
+        color: Black;
+        padding: 10px;
+        
+      }
+fieldset {
+        margin-bottom: 10px;
+        font-family: Arial Narrow;
+        outline: 1;
+        background: White;
+        color: Blue;
+        padding: 10px;
+        
+      }
+.center{
+margin: auto;
+width: 20%;
+border: 3px solid white;
+border-radius: 30px;
+padding: 10px;
+background: orange;
+color:white;
+
+
+</style>
